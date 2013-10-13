@@ -1,0 +1,9 @@
+@import "bootstrap/bootstrap";
+@import "bootstrap/responsive";
+
+//Bootstrap fixed navbar fix
+body { 
+	@media (min-width: 979px) {
+		padding-top: 60px; padding-bottom: 40px;
+	}
+}	
