@@ -1,9 +1,68 @@
+@import "grid";
 @import "bootstrap/bootstrap";
 @import "bootstrap/responsive";
 
+/* Bootstrap fixes */
 //Bootstrap fixed navbar fix
 body { 
 	@media (min-width: 979px) {
 		padding-top: 60px; padding-bottom: 40px;
 	}
-}	
+}
+/* End Bootstrap fixes */
+
+/* Custom responsive semantic grid */
+//Responsive grid
+.g-span12{@include column(12);}
+@media (min-width: 980px) {
+  .g-span11{@include column(11);}
+  .g-span10{@include column(10);}
+  .g-span9{@include column(9);}
+  .g-span8{@include column(8);}
+  .g-span7{@include column(7);}
+  .g-span6{@include column(6);}
+  .g-span5{@include column(5);}
+  .g-span4{@include column(4);}
+  .g-span3{@include column(3);}
+  .g-span2{@include column(2);}
+  .g-span1{@include column(1);}
+  .g-offset6{@include push(6);}  
+}
+@media (min-width: 768px) and (max-width: 979px) { 
+  .g-span11{@include column(11);}
+  .g-span10{@include column(10);}
+  .g-span9{@include column(9);}
+  .g-span8{@include column(8);}
+  .g-span7{@include column(7);}
+  .g-span6{@include column(6);}
+  .g-span5{@include column(5);}
+  .g-span4{@include column(4);}
+  .g-span3{@include column(6);}
+  .g-span2{@include column(2);}
+  .g-span1{@include column(1);} 
+  .g-offset6{@include push(6);} 
+}
+// Landscape phone to portrait tablet
+@media (max-width: 767px) { 
+  .g-span11{@include column(12);}
+  .g-span10{@include column(12);}
+  .g-span9{@include column(12);}
+  .g-span8{@include column(12);}
+  .g-span7{@include column(12);}
+  .g-span6{@include column(12);}
+  .g-span4{@include column(12);}
+  .g-span3{@include column(12);}
+  .g-span2{@include column(12);}
+  .g-span1{@include column(12);} 
+}
+/* END Custom responsive semantic grid */
+
+/* Calendar block */
+	.b-calendar{@extend .g-span10;}
+	.b-calendar__nested-row{@include row(10);}
+	.b-calendar__cell{@extend .g-span2;}
+/* END Calendar block */
+
+/* Footer */
+	footer{@extend .g-span12;}
+/* END Footer */
