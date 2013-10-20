@@ -29,6 +29,48 @@ $orange:                #f89406 !default;
 $pink:                  #c3325f !default;
 $purple:                #7a43b6 !default;
 
+// Flat ui colors
+//--------------------------
+$turqouise: #1ABC9C !default;
+$green-sea:	#16A085 !default;
+$emerland: #2ECC71 !default;
+$nephritis: #27AE60 !default;
+$peter-river: #3498DB !default;
+$belize-hole: #2980B9 !default;
+$amethyst: #9B59B6 !default;
+$wisteria: #8E44AD !default;
+$wet-asphalt: #34495E !default;
+$midnight-blue: #2C3E50 !default;
+$sun-flower: #F1C40F !default;
+$carrot: #E67E22 !default;
+$pumpkin: #D35400 !default;
+$alizarin: #E74C3C !default;
+$pomegranate: #C0392B !default;
+$clouds: #ECF0F1 !default;
+$silver: #BDC3C7 !default;
+$concrete: #95A5A6 !default;
+$asbestos: #7F8C8D !default;
+
+$plump: #5B3B70 !default;
+$plump-purple: #504375 !default;
+$velvet-purple: #662361 !default;
+$dark-blue: #2C2C62 !default;
+$medium-blue: #234182 !default;
+$lowlight-blue: #0070A1 !default;
+$capitan-cool: #008FCC !default;
+$light-green: #00A464 !default;
+$medium-green: #008972 !default;
+$dark-green: #007550 !default;
+$old-green: #B6D8C0 !default;
+$metro-blue: #00B4FF !default;
+$light-blue: #D2E4FC !default;
+$cream: #FEEA77 !default;
+$trance: #E2F7CE !default;
+$pink-eye: #A82743 !default;
+$bloodworth: #991818 !default;
+$dustWind: #EBE0CD !default;
+$ocean-waves: #84DAE0 !default;
+$gold: #CAA91E !default;
 
 // Scaffolding
 // -------------------------
@@ -70,9 +112,9 @@ $paddingLarge:          11px 19px !default; // 44px
 $paddingSmall:          2px 10px !default;  // 26px
 $paddingMini:           0px 6px !default;   // 22px
 
-$baseBorderRadius:      4px !default;
-$borderRadiusLarge:     6px !default;
-$borderRadiusSmall:     3px !default;
+$baseBorderRadius:      0 !default;
+$borderRadiusLarge:     0 !default;
+$borderRadiusSmall:     0 !default;
 
 
 // Tables
