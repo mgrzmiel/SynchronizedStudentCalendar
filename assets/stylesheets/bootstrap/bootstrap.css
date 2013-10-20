@@ -707,9 +707,9 @@ pre {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 /* line 42, ../../sass/bootstrap/_code.scss */
 pre.prettyprint {
@@ -811,9 +811,9 @@ input[type="color"],
   font-size: 14px;
   line-height: 20px;
   color: #555555;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   vertical-align: middle;
 }
 
@@ -1463,9 +1463,9 @@ select:focus:invalid:focus {
   margin-bottom: 0;
   *margin-left: 0;
   vertical-align: top;
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 /* line 448, ../../sass/bootstrap/_forms.scss */
 .input-append input:focus,
@@ -1519,26 +1519,26 @@ select:focus:invalid:focus {
 /* line 484, ../../sass/bootstrap/_forms.scss */
 .input-prepend .add-on:first-child,
 .input-prepend .btn:first-child {
-  -webkit-border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
-  border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 
 /* line 493, ../../sass/bootstrap/_forms.scss */
 .input-append input,
 .input-append select,
 .input-append .uneditable-input {
-  -webkit-border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
-  border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 /* line 495, ../../sass/bootstrap/_forms.scss */
 .input-append input + .btn-group .btn:last-child,
 .input-append select + .btn-group .btn:last-child,
 .input-append .uneditable-input + .btn-group .btn:last-child {
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 /* line 501, ../../sass/bootstrap/_forms.scss */
 .input-append .add-on,
@@ -1550,9 +1550,9 @@ select:focus:invalid:focus {
 .input-append .add-on:last-child,
 .input-append .btn:last-child,
 .input-append .btn-group:last-child > .dropdown-toggle {
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 
 /* line 515, ../../sass/bootstrap/_forms.scss */
@@ -1567,25 +1567,25 @@ select:focus:invalid:focus {
 .input-prepend.input-append input + .btn-group .btn,
 .input-prepend.input-append select + .btn-group .btn,
 .input-prepend.input-append .uneditable-input + .btn-group .btn {
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 /* line 522, ../../sass/bootstrap/_forms.scss */
 .input-prepend.input-append .add-on:first-child,
 .input-prepend.input-append .btn:first-child {
   margin-right: -1px;
-  -webkit-border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
-  border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 /* line 527, ../../sass/bootstrap/_forms.scss */
 .input-prepend.input-append .add-on:last-child,
 .input-prepend.input-append .btn:last-child {
   margin-left: -1px;
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 /* line 531, ../../sass/bootstrap/_forms.scss */
 .input-prepend.input-append .btn-group:first-child {
@@ -1836,9 +1836,9 @@ table {
   border-collapse: separate;
   *border-collapse: collapse;
   border-left: 0;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 /* line 81, ../../sass/bootstrap/_tables.scss */
 .table-bordered th,
@@ -1861,17 +1861,17 @@ table {
 .table-bordered thead:first-child tr:first-child > th:first-child,
 .table-bordered tbody:first-child tr:first-child > td:first-child,
 .table-bordered tbody:first-child tr:first-child > th:first-child {
-  -webkit-border-top-left-radius: 4px;
-  -moz-border-radius-topleft: 4px;
-  border-top-left-radius: 4px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
 }
 /* line 105, ../../sass/bootstrap/_tables.scss */
 .table-bordered thead:first-child tr:first-child > th:last-child,
 .table-bordered tbody:first-child tr:first-child > td:last-child,
 .table-bordered tbody:first-child tr:first-child > th:last-child {
-  -webkit-border-top-right-radius: 4px;
-  -moz-border-radius-topright: 4px;
-  border-top-right-radius: 4px;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
 }
 /* line 113, ../../sass/bootstrap/_tables.scss */
 .table-bordered thead:last-child tr:last-child > th:first-child,
@@ -1879,9 +1879,9 @@ table {
 .table-bordered tbody:last-child tr:last-child > th:first-child,
 .table-bordered tfoot:last-child tr:last-child > td:first-child,
 .table-bordered tfoot:last-child tr:last-child > th:first-child {
-  -webkit-border-bottom-left-radius: 4px;
-  -moz-border-radius-bottomleft: 4px;
-  border-bottom-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
 }
 /* line 121, ../../sass/bootstrap/_tables.scss */
 .table-bordered thead:last-child tr:last-child > th:last-child,
@@ -1889,9 +1889,9 @@ table {
 .table-bordered tbody:last-child tr:last-child > th:last-child,
 .table-bordered tfoot:last-child tr:last-child > td:last-child,
 .table-bordered tfoot:last-child tr:last-child > th:last-child {
-  -webkit-border-bottom-right-radius: 4px;
-  -moz-border-radius-bottomright: 4px;
-  border-bottom-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
 }
 /* line 126, ../../sass/bootstrap/_tables.scss */
 .table-bordered tfoot + tbody:last-child tr:last-child td:first-child {
@@ -1910,18 +1910,18 @@ table {
 .table-bordered caption + tbody tr:first-child td:first-child,
 .table-bordered colgroup + thead tr:first-child th:first-child,
 .table-bordered colgroup + tbody tr:first-child td:first-child {
-  -webkit-border-top-left-radius: 4px;
-  -moz-border-radius-topleft: 4px;
-  border-top-left-radius: 4px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
 }
 /* line 143, ../../sass/bootstrap/_tables.scss */
 .table-bordered caption + thead tr:first-child th:last-child,
 .table-bordered caption + tbody tr:first-child td:last-child,
 .table-bordered colgroup + thead tr:first-child th:last-child,
 .table-bordered colgroup + tbody tr:first-child td:last-child {
-  -webkit-border-top-right-radius: 4px;
-  -moz-border-radius-topright: 4px;
-  border-top-right-radius: 4px;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
 }
 
 /* line 159, ../../sass/bootstrap/_tables.scss */
@@ -3049,9 +3049,9 @@ table th[class*="span"],
 .typeahead {
   z-index: 1051;
   margin-top: 2px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 7, ../../sass/bootstrap/_wells.scss */
@@ -3061,9 +3061,9 @@ table th[class*="span"],
   margin-bottom: 20px;
   background-color: whitesmoke;
   border: 1px solid #e3e3e3;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -3077,17 +3077,17 @@ table th[class*="span"],
 /* line 22, ../../sass/bootstrap/_wells.scss */
 .well-large {
   padding: 24px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 26, ../../sass/bootstrap/_wells.scss */
 .well-small {
   padding: 9px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 6, ../../sass/bootstrap/_component-animations.scss */
@@ -3178,9 +3178,9 @@ button.close {
   border: 1px solid #cccccc;
   *border: 0;
   border-bottom-color: #b3b3b3;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   *margin-left: .3em;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -3239,9 +3239,9 @@ button.close {
 .btn-large {
   padding: 11px 19px;
   font-size: 17.5px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 76, ../../sass/bootstrap/_buttons.scss */
@@ -3254,9 +3254,9 @@ button.close {
 .btn-small {
   padding: 2px 10px;
   font-size: 11.9px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 87, ../../sass/bootstrap/_buttons.scss */
@@ -3275,9 +3275,9 @@ button.close {
 .btn-mini {
   padding: 0px 6px;
   font-size: 10.5px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 106, ../../sass/bootstrap/_buttons.scss */
@@ -3627,45 +3627,45 @@ input[type="submit"].btn.btn-mini {
 /* line 60, ../../sass/bootstrap/_button-groups.scss */
 .btn-group > .btn:first-child {
   margin-left: 0;
-  -webkit-border-top-left-radius: 4px;
-  -moz-border-radius-topleft: 4px;
-  border-top-left-radius: 4px;
-  -webkit-border-bottom-left-radius: 4px;
-  -moz-border-radius-bottomleft: 4px;
-  border-bottom-left-radius: 4px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
 }
 
 /* line 67, ../../sass/bootstrap/_button-groups.scss */
 .btn-group > .btn:last-child,
 .btn-group > .dropdown-toggle {
-  -webkit-border-top-right-radius: 4px;
-  -moz-border-radius-topright: 4px;
-  border-top-right-radius: 4px;
-  -webkit-border-bottom-right-radius: 4px;
-  -moz-border-radius-bottomright: 4px;
-  border-bottom-right-radius: 4px;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* line 72, ../../sass/bootstrap/_button-groups.scss */
 .btn-group > .btn.large:first-child {
   margin-left: 0;
-  -webkit-border-top-left-radius: 6px;
-  -moz-border-radius-topleft: 6px;
-  border-top-left-radius: 6px;
-  -webkit-border-bottom-left-radius: 6px;
-  -moz-border-radius-bottomleft: 6px;
-  border-bottom-left-radius: 6px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
 }
 
 /* line 78, ../../sass/bootstrap/_button-groups.scss */
 .btn-group > .btn.large:last-child,
 .btn-group > .large.dropdown-toggle {
-  -webkit-border-top-right-radius: 6px;
-  -moz-border-radius-topright: 6px;
-  border-top-right-radius: 6px;
-  -webkit-border-bottom-right-radius: 6px;
-  -moz-border-radius-bottomright: 6px;
-  border-bottom-right-radius: 6px;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* line 87, ../../sass/bootstrap/_button-groups.scss */
@@ -3817,30 +3817,30 @@ input[type="submit"].btn.btn-mini {
 
 /* line 218, ../../sass/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn:first-child {
-  -webkit-border-radius: 4px 4px 0 0;
-  -moz-border-radius: 4px 4px 0 0;
-  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 
 /* line 221, ../../sass/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn:last-child {
-  -webkit-border-radius: 0 0 4px 4px;
-  -moz-border-radius: 0 0 4px 4px;
-  border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 
 /* line 224, ../../sass/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn-large:first-child {
-  -webkit-border-radius: 6px 6px 0 0;
-  -moz-border-radius: 6px 6px 0 0;
-  border-radius: 6px 6px 0 0;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 
 /* line 227, ../../sass/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn-large:last-child {
-  -webkit-border-radius: 0 0 6px 6px;
-  -moz-border-radius: 0 0 6px 6px;
-  border-radius: 0 0 6px 6px;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 
 /* line 9, ../../sass/bootstrap/_alerts.scss */
@@ -3850,9 +3850,9 @@ input[type="submit"].btn.btn-mini {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 18, ../../sass/bootstrap/_alerts.scss */
@@ -4425,9 +4425,9 @@ input[type="submit"].btn.btn-mini {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF2F2F2', GradientType=0);
   border: 1px solid #d4d4d4;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
@@ -5015,9 +5015,9 @@ input[type="submit"].btn.btn-mini {
   margin: 0 0 20px;
   list-style: none;
   background-color: #f5f5f5;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 /* line 12, ../../sass/bootstrap/_breadcrumbs.scss */
 .breadcrumb > li {
@@ -5050,9 +5050,9 @@ input[type="submit"].btn.btn-mini {
   *zoom: 1;
   margin-left: 0;
   margin-bottom: 0;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -5104,23 +5104,23 @@ input[type="submit"].btn.btn-mini {
 .pagination ul > li:first-child > a,
 .pagination ul > li:first-child > span {
   border-left-width: 1px;
-  -webkit-border-top-left-radius: 4px;
-  -moz-border-radius-topleft: 4px;
-  border-top-left-radius: 4px;
-  -webkit-border-bottom-left-radius: 4px;
-  -moz-border-radius-bottomleft: 4px;
-  border-bottom-left-radius: 4px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
 }
 
 /* line 59, ../../sass/bootstrap/_pagination.scss */
 .pagination ul > li:last-child > a,
 .pagination ul > li:last-child > span {
-  -webkit-border-top-right-radius: 4px;
-  -moz-border-radius-topright: 4px;
-  border-top-right-radius: 4px;
-  -webkit-border-bottom-right-radius: 4px;
-  -moz-border-radius-bottomright: 4px;
-  border-bottom-right-radius: 4px;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* line 67, ../../sass/bootstrap/_pagination.scss */
@@ -5142,22 +5142,22 @@ input[type="submit"].btn.btn-mini {
 /* line 86, ../../sass/bootstrap/_pagination.scss */
 .pagination-large ul > li:first-child > a,
 .pagination-large ul > li:first-child > span {
-  -webkit-border-top-left-radius: 6px;
-  -moz-border-radius-topleft: 6px;
-  border-top-left-radius: 6px;
-  -webkit-border-bottom-left-radius: 6px;
-  -moz-border-radius-bottomleft: 6px;
-  border-bottom-left-radius: 6px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
 }
 /* line 90, ../../sass/bootstrap/_pagination.scss */
 .pagination-large ul > li:last-child > a,
 .pagination-large ul > li:last-child > span {
-  -webkit-border-top-right-radius: 6px;
-  -moz-border-radius-topright: 6px;
-  border-top-right-radius: 6px;
-  -webkit-border-bottom-right-radius: 6px;
-  -moz-border-radius-bottomright: 6px;
-  border-bottom-right-radius: 6px;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* line 99, ../../sass/bootstrap/_pagination.scss */
@@ -5165,24 +5165,24 @@ input[type="submit"].btn.btn-mini {
 .pagination-mini ul > li:first-child > span,
 .pagination-small ul > li:first-child > a,
 .pagination-small ul > li:first-child > span {
-  -webkit-border-top-left-radius: 3px;
-  -moz-border-radius-topleft: 3px;
-  border-top-left-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
 }
 /* line 103, ../../sass/bootstrap/_pagination.scss */
 .pagination-mini ul > li:last-child > a,
 .pagination-mini ul > li:last-child > span,
 .pagination-small ul > li:last-child > a,
 .pagination-small ul > li:last-child > span {
-  -webkit-border-top-right-radius: 3px;
-  -moz-border-radius-topright: 3px;
-  border-top-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-  -moz-border-radius-bottomright: 3px;
-  border-bottom-right-radius: 3px;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* line 111, ../../sass/bootstrap/_pagination.scss */
@@ -5434,9 +5434,9 @@ input[type="submit"].btn.btn-mini {
   text-align: center;
   text-decoration: none;
   background-color: black;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 34, ../../sass/bootstrap/_tooltip.scss */
@@ -5667,9 +5667,9 @@ input[type="submit"].btn.btn-mini {
   padding: 4px;
   line-height: 20px;
   border: 1px solid #ddd;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
@@ -5980,9 +5980,9 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 55, ../../sass/bootstrap/_progress-bars.scss */
@@ -6141,9 +6141,9 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 .accordion-group {
   margin-bottom: 2px;
   border: 1px solid #e5e5e5;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 17, ../../sass/bootstrap/_accordion.scss */
